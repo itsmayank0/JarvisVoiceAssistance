@@ -122,6 +122,8 @@ if __name__ == "__main__":
         
         elif "open typing master" in command:
             ty_path = "C:\\Program Files (x86)\\TypingMaster\\tmaster.exe"
+            print("Openning ...")
+            speak("Openning ...")
             os.startfile(ty_path)
             
         else:
