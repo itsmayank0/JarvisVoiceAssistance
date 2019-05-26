@@ -119,7 +119,11 @@ if __name__ == "__main__":
             print("Openning...")
             speak("Openning, A Book for you...")
             os.startfile(os.path.join(book_path,books[b_ran])) 
-
+        
+        elif "open typing master" in command:
+            ty_path = "C:\\Program Files (x86)\\TypingMaster\\tmaster.exe"
+            os.startfile(ty_path)
+            
         else:
             print("Sorry, I don't Understand that Please Pardon :)")
             speak("Sorry, I don't Understand that Please Pardon :)")
