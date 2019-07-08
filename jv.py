@@ -36,6 +36,7 @@ def wiseme():
 
 def take_cm():
     print("***Let me Know your Quary !?")
+    speak("Let me Know your Quary !")
     command = input("...")
     return command
 
