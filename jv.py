@@ -128,5 +128,5 @@ if __name__ == "__main__":
             os.startfile(ty_path)
             
         else:
-            print("Sorry, I don't Understand that Please Pardon :)")
-            speak("Sorry, I don't Understand that Please Pardon :)")
+            print("Sorry, I don't Understand !!!")
+            speak("Sorry, I don't Understand !!!)
