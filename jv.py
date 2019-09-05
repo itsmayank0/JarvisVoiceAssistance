@@ -138,4 +138,7 @@ if __name__ == "__main__":
 =======
             print("Sorry, I don't Understand that Please Pardon :)")
             speak("Sorry, I don't Understand that Please Pardon :)")
+<<<<<<< HEAD
+>>>>>>> 1c5557b2f7d789d81f769f137f2eadc2a07e1fea
+=======
 >>>>>>> 1c5557b2f7d789d81f769f137f2eadc2a07e1fea
