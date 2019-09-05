@@ -60,7 +60,7 @@ if __name__ == "__main__":
             webbrowser.open("www.youtube.com")
             
         elif "play music" in command:
-            music = "E:\\Music"
+            music = "E:\\Music" #specify the address of music
             songs = os.listdir(music)
             ran = random.randint(0,753)
             print("Playing music...")
@@ -77,24 +77,28 @@ if __name__ == "__main__":
             speak(f'Sir, the Time is {time_now}')
     
         elif "open code" in command:
-            code_path = "C:\\Users\\ad\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            #Address of vs code
+            code_path = "C:\\Users\\ad\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" 
             print("Opennig...")
             speak("Openning, vscode...")
             os.startfile(code_path)
 
         elif "open photoshop" in command:
+            #address specification
             photo_path = "C:\\Program Files\\Adobe\\Adobe Photoshop CC 2018\\Photoshop.exe"
             print("Openning ...")
             speak("Openning, photoshop...")
             os.startfile(photo_path)
         
         elif "open chrome" in command:
+            #address specification
             ch_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
             print("Opening ...")
             speak("Openning, chrome...")
             os.startfile(ch_path)
         
         elif "open vlc" in command:
+            #address
             vlc_path ="C:\\Program Files\\VideoLAN\VLC\\vlc.exe"
             print("Opening ...")
             speak("Openning, vlc...")
@@ -128,5 +132,10 @@ if __name__ == "__main__":
             os.startfile(ty_path)
             
         else:
+<<<<<<< HEAD
             print("Sorry, I don't Understand !!!")
             speak("Sorry, I don't Understand !!!)
+=======
+            print("Sorry, I don't Understand that Please Pardon :)")
+            speak("Sorry, I don't Understand that Please Pardon :)")
+>>>>>>> 1c5557b2f7d789d81f769f137f2eadc2a07e1fea
